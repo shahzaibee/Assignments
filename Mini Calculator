@@ -1,0 +1,26 @@
+ 
+const prompt = require('prompt-sync')();
+//
+// get input from the user.
+//
+let n1= parseInt(prompt('please enter your first number '));
+let n2 =  parseInt(prompt('please enter your second number '));
+let operator = prompt(`please enter your operator (+ , - , * , /:)`)
+
+if (operator == '+') {
+    console.log(`The answer is ${n1} ${operator} ${n2} = ${n1 + n2} `);
+}
+else if (operator == '-') {
+    console.log(`The answer is ${n1} ${operator} ${n2} = ${n1 - n2} `);
+}
+else if (operator == '*') {
+    console.log(`The answer is ${n1} ${operator} ${n2} = ${n1 * n2} `);
+}
+
+else if (operator == '/') {
+    console.log(`The answer is ${n1} ${operator} ${n2} = ${n1 / n2} `);
+}
+
+console.log(operator);
+
+export{}
