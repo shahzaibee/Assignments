@@ -1,0 +1,11 @@
+let Citys = ["Karachi","Lahore","Peshawar","multan"]
+
+for(let i=0; i<Citys.length; i++){
+
+  if (Citys[i] == "Karachi") {
+    console.log("Match Found");
+} 
+else{
+console.log("NOt found");
+}
+}
