@@ -1,0 +1,26 @@
+let a =Math.ceil(5.2);  //  6
+
+a =Math.floor(5.0);     // 5
+
+a = Math.round(2.49)    //2
+
+// a= Math.trunc(5); // ?????
+
+a= Math.max(1,2,3,4,5,);  // 5
+
+a= Math.min(1,2,3,4,5,);  //1
+
+a= Math.sqrt(4); //  for square root  ans is 2 .
+
+// a = Math.cbrt(8) // ?????
+
+a= Math.pow(5,5) // 5  * 5 * 5 * 5 * 5 = 3125 
+
+a= Math.floor(Math.random()*10 +1) ;  // random numbers 2 , 5 ,6 3 ,8 ,10
+
+a= Math.abs(5.25); // 5.25
+
+a= Math.PI; // 3.14
+
+console.log(a);        
+
