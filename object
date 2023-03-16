@@ -1,0 +1,11 @@
+let a = [
+{
+
+name: "Shahzaib",
+age: 25,
+House: "North karachi"
+
+}
+
+]
+console.log(a[0].name = "Muhammad ShahZaib");
