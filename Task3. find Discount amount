@@ -1,0 +1,23 @@
+•	Create a function that takes a product price and a discount percentage as input and calculates the discount amount for the product using the formula: discount amount = product price * (discount percentage / 100).
+•	If the discount percentage is greater than or equal to 50%, the function should return an error message indicating that the discount percentage is invalid.
+•	Display the original price, discount percentage, discount amount, and final price of the product to the user as output.
+•	Test the function with different product prices and discount percentages.
+
+let discountFunc = (price:number, discountPercentage:number):void=>{
+
+    let discountAmount:number = price * (discountPercentage/100)
+
+    if(discountPercentage >= 50){
+        console.log("The discount percentage is invalid.")
+    } else{
+        console.log(`orignal price: ${price}, discount percentage: ${discountPercentage}%, discount amount is: ${discountAmount}, final price is rs. ${price-discountAmount}`)
+    }
+    
+}
+
+
+discountFunc(200,40)
+
+
+
+
