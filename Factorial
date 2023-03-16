@@ -1,0 +1,9 @@
+
+let num = 5;
+let factorial = 1;
+
+for (; num >0; num--) {
+factorial=num*factorial;
+ }
+ 
+console.log (factorial);
