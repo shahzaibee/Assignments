@@ -1,0 +1,79 @@
+// Array methods
+
+// let array = ["Apple", "Mango" , "Bnana" , "Orange"];
+
+//Array .push
+
+// array.push("Date");
+// console.log(array);   //Add first element
+
+
+// Array.pop
+
+// array.pop();
+// console.log(array); //remove last element
+
+
+//Array.splice
+
+// array.splice(1,2,"Pineapple")  
+// console.log(array);      //
+
+
+//Array.slice
+
+// let array2 = array.slice(1) 
+// console.log(array2);
+
+//Array .length
+
+// console.log(array.length); // execute array length.
+
+
+//Array indexof
+
+// let b = array.indexOf("Bnana");
+
+// console.log(b);
+
+
+//Array.last indexof
+
+// let b =array.lastIndexOf("Orange");   //3
+// console.log(b);
+
+
+//Array.includes
+
+// let b = array.includes("mango"); // true
+// console.log(b);
+
+//Array.shift
+
+// // array.shift();    //remove first element
+// console.log(array);
+
+//Array.unshift
+
+// array.unshift("Strawberry")  // add new element
+// console.log(array);
+
+
+//Array.concat
+
+// let a = ["Apple", "Mango" , "Bnana" , "Orange"];
+// let b = ["Bilal" , "Noman" , "Asad" , "Shahzaib"]
+// let c = a.concat(b);
+// console.log(c);   // two arrays will be merge in one array .
+
+//Array.ForEach
+
+// let b = ["Bilal" , "Noman" , "Asad" , "Shahzaib"]
+
+//  b.forEach(function(value){
+
+// console.log(value);
+
+//  })
+
+// export{};
