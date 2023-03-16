@@ -1,0 +1,16 @@
+let firstname = ["a", "b","c","d","e", "f"]
+
+let secondname = ["g","h","i","j","k","l"]
+
+let fullname = [];
+
+
+for(let i=0; i<firstname.length; i++){
+
+for(let j=0; j<secondname.length; j++){
+ 
+fullname.push(firstname[i] + secondname[j])
+
+}
+}
+console.log(fullname);
