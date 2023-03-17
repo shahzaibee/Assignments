@@ -1,0 +1,8 @@
+let b =Math.floor(Math.random()*10+1);
+
+if (b > 5) {
+    console.log(`the answer is ${b}`);
+}
+else{
+    console.log(`incorrect ${b}`);   
+}
