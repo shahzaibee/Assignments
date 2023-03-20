@@ -1,0 +1,20 @@
+//prompt-sync intallation method
+
+
+// Go to terminal & write this code to installation modules.
+
+npm i prompt-sync   // 1st code
+`npm i --save-dev @types/node`.  // 2nd code
+
+
+// Run this command to vscode to execute user input.
+
+var prompt = require('prompt-sync')();
+//
+// get input from the user.
+//
+var n = prompt('How many more times? ');
+
+export{}
+
+
