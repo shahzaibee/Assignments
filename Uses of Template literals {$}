@@ -1,0 +1,10 @@
+// Uses of template literals.
+
+
+
+let myNAme = "Shahzaib"
+let cLass = "B.COM PART 1"
+
+console.log(`Hellow ${myNAme} in which class do you study ? Now iam study in ${cLass}`);
+
+
