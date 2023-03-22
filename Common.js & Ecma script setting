@@ -1,0 +1,14 @@
+jab humay commonjs ko ecmascript pe convert karna hota hai to is tarah se tsconfig or package.json ki setting karni hoti hai pher apki
+ts wali file compile Ecmascript pe hoge instead of common js. is setting ko karne se run time pe error b chale jaengy.
+ 
+ 
+TSCONFIG SETTING From COMMON JS to ECMASCRIPT.
+
+  "target": "ESNext",    
+ "module": "ESNext", 
+
+PACKAGE.JSON SETTING from COMMON & ECMASCRIPT to run time error.
+
+  "type": "module",
+  
+  .
