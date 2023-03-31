@@ -1,0 +1,16 @@
+// object  
+
+const items = 
+{
+
+shahzaib : true,
+age : 25,
+work : "Learning typescript",
+duration: "Three month",
+
+}
+
+console.log(items.shahzaib);
+console.log(items.age);
+console.log(items.work);
+console.log(items.duration);
