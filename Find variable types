@@ -1,0 +1,17 @@
+//find types of variable 
+
+
+let Str = "Harry"
+
+let NUm = 12
+
+let ac = true;
+
+let ba = null;
+
+let d;
+
+console.log(typeof Str);
+console.log(typeof NUm);
+console.log(typeof ba)
+console.log(typeof d);
