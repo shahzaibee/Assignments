@@ -1,0 +1,28 @@
+// Nested object
+
+
+type Book = {
+
+    firstbookname: string;
+    lastbookname: string;
+
+}
+ 
+type myBook = {
+
+title: Book,
+pages :number
+
+}
+
+let myBook2 : myBook= {
+    title: {
+        firstbookname: "Jungle",
+        lastbookname: "Book"
+
+    },
+    pages: 432,
+    
+}
+
+console.log(myBook2)
