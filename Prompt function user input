@@ -1,0 +1,29 @@
+var prompt = require("prompt-sync")();
+//
+// get input from the user.
+//
+var fruits = prompt("Which fruit to buy?");
+
+switch (fruits) {
+  case "Orange":
+    console.log("150 Rs Dozen");
+    break;
+
+  case "Banana":
+    console.log("130 Rs Dozen");
+    break;
+
+  case "Mango":
+    console.log("200 Rs KG");
+    break;
+
+  case "Apple":
+    console.log("220 Rs KG");
+    break;
+
+  default:
+    console.log(`${fruits}  khatam hugye kal aengy`);
+}
+console.log("Aur kuch chaiye");
+
+export {};
