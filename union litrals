@@ -1,0 +1,20 @@
+//union types.
+
+
+let a: string | number | null | undefined = 7
+
+
+a= "papa"
+console.log(a);
+
+a = null
+console.log(a);
+
+a = undefined
+console.log(a);
+
+a= 8
+console.log(a);
+
+a= "Example"
+console.log(a);
