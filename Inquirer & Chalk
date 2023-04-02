@@ -1,0 +1,66 @@
+import inquirer from "inquirer";
+
+import  chalk from 'chalk';
+
+console.log(chalk.blue('Lets start Calculation'));
+
+
+const answer: {
+  NumberOne: number;
+  NumberTwo: number;
+  operator: string;
+} = await inquirer.prompt([
+  {
+    type: "number",
+    name: "NumberOne",
+    message: "Please enter your first number",
+  },
+  {
+    type: "number",
+    name: "NumberTwo",
+    message: "Please enter your second number",
+  },
+  {
+    type: "list",
+    name: "operator",
+    message: "Select operator",
+    choices: ["+", "-", "*", "/","%"],
+  },
+]);
+
+const { NumberOne, NumberTwo, operator } = answer;
+
+if (operator == "+") {
+  console.log
+  (chalk.red(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne + NumberOne
+    } `
+  ));
+} else if (operator == "-") {
+  console.log(chalk.blue(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne - NumberOne
+    } `
+  ));
+} else if (operator == "*") {
+  console.log(chalk.yellow(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne * NumberOne
+    } `
+  ));
+} else if (operator == "/") {
+  console.log(chalk.green(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne / NumberOne
+    } `
+  ));
+} else if (operator == "%") {
+  console.log(chalk.green(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne / NumberOne
+    } `
+  ));}
+else {
+  console.log(chalk.white("Invalod input"));
+}
