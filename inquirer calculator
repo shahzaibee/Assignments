@@ -1,0 +1,55 @@
+
+import inquirer from "inquirer";
+
+const answer: {
+  NumberOne: number;
+  NumberTwo: number;
+  operator: string;
+} = await inquirer.prompt([
+  {
+    type: "number",
+    name: "NumberOne",
+    message: "Please enter your first number",
+  },
+  {
+    type: "number",
+    name: "NumberTwo",
+    message: "Please enter your second number",
+  },
+  {
+    type: "list",
+    name: "operator",
+    message: "Select operator",
+    choices: ["+", "-", "*", "/"],
+  },
+]);
+
+const { NumberOne, NumberTwo, operator } = answer;
+
+if (operator == "+") {
+  console.log(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne + NumberOne
+    } `
+  );
+} else if (operator == "-") {
+  console.log(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne - NumberOne
+    } `
+  );
+} else if (operator == "*") {
+  console.log(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne * NumberOne
+    } `
+  );
+} else if (operator == "/") {
+  console.log(
+    `the answer of ${NumberOne} ${operator} ${NumberTwo} = ${
+      NumberOne / NumberOne
+    } `
+  );
+} else {
+  console.log("Invalod input");
+}
