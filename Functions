@@ -1,0 +1,28 @@
+// Arrow function
+
+let calc= (width:number, height:number)=> width * height
+
+let area = calc(23,32)
+
+console.log(`The Total Area of Rectangle is ${area}:`);
+
+
+// Return function
+
+let calc1= (width:number, height:number)=>{
+
+return width * height
+
+}
+let value = calc(23,32)
+console.log(`The Total Area of Rectangle is ${value}:`);
+
+//Named function
+
+function calc2(width:number, height:number){
+
+      console.log(width * height);
+      
+    }
+    
+    calc2(23,32)
