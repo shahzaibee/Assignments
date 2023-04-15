@@ -1,0 +1,39 @@
+// Intersceted obect
+
+interface IndiaPlayer {
+  name: string;
+  BattingNo: number;
+  StrikeRate: number;
+  MatchesPlayed: number;
+  BestScore: number;
+  Centuries: number;
+  TotalMatches: number;
+}
+interface PakPlayer {
+  name1: string;
+  Batting_No: number;
+  Strike_Rate: number;
+  Matches_Played: number;
+  Best_Score: number;
+  Centuries_: number;
+  Total_Matches: number;
+}
+type intersceted = IndiaPlayer & PakPlayer;
+
+let PlayersComParison: intersceted = {
+  name: "Virat Kohli",
+  BattingNo: 3,
+  StrikeRate: 61.47,
+  MatchesPlayed: 319,
+  BestScore: 183,
+  Centuries: 72,
+  TotalMatches: 321,
+  name1: "Babar Azam",
+  Batting_No: 3,
+  Strike_Rate: 53.24,
+  Matches_Played: 138,
+  Best_Score: 125,
+  Centuries_: 18,
+  Total_Matches: 141,
+};
+console.log(PlayersComParison);
